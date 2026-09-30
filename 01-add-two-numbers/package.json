@@ -1,0 +1,16 @@
+{
+	"name": "01-add-two-numbers",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"check": "bunx biome check --write"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.5.15",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	}
+}
